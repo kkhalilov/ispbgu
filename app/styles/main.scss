@@ -1,0 +1,32 @@
+// bower:scss
+// endbower
+@import "bootstrap";
+body {
+  color: #000000;
+}
+textarea:focus {
+  outline: none;
+}
+.filtering {
+  width: auto;
+  padding: 0 20px;
+  height: 1000px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  .numbers {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    textarea {
+      width: 100%;
+      border: 0;
+      height: 600px;
+    }
+  }
+}
+
+
